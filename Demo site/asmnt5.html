@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <table border="5" width="400" height = "400" table-layout = "auto">
+        <tr>
+              <td  colspan = "4" align="center">Colspan = “4”</td>  <!--First row of the table-->      
+          </tr>
+          
+          <tr>
+              <td rowspan ="3" colspan = "1" > col1 </td>
+              <td rowspan ="3" colspan = "1"> col2 </td>
+              <td rowspan ="3" colspan = "1"> col3 </td>  <!--Second group of rows of the table consisting 3 rows-->  
+              <td rowspan ="3" colspan = "1"> col4 </td>
+              
+          </tr>
+          
+          <tr></tr>   <!--occupied by the second group of rows of the table-->  
+          <tr></tr>   <!--occupied by the second group of rows of the table-->
+      
+          <tr>
+             <td colspan = "2"> colspan = 2 </td>  <!--3rd row which should contain 2 
+                                                   equal columns-->
+             <td colspan ="2" > colspan = 2 </td> 
+          </tr>
+      
+           <tr>   
+             <td colspan="3"> colspan = 3</td> <!--4th row of which the first should 
+                                               contain 3 cols and the second col is 1-->
+             <td > colspan = 1 </td> 
+           </tr>   
+           </table>
+</body>
+</html>

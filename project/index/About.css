@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+}
+body{
+    background-image: linear-gradient(to left, #5F0A87, #A4508B);
+}
+div.header ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-image: linear-gradient(to right, #5F0A87, #A4508B);
+    
+    overflow: hidden;
+}
+div.header li{
+    padding: 10px;
+    float: left;
+}
+div.header li a{
+    display: block;
+    text-align: center;
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+#one{
+    font-size: 60px;
+    font-weight: bold;
+    display: inline;
+}
+hr{
+    max-width: 100%;
+    padding: 1rem;
+    position: relative;
+    background: linear-gradient(to left, black,rgb(131, 23, 181));;
+    padding: 3px;
+}
+h1,h3{
+    
+    background-image: linear-gradient(to right, black,rgb(131, 23, 181));;
+    margin: 25px;
+    padding: 20px;
+    font-size: xx-large;
+    text-align: center;
+    text-decoration: underline;
+}
+img{
+    height: 50px;
+    width: 50px;
+}
+mark{
+    background-color:rgb(204, 204, 204) ;
+}
+#one{
+    text-align: center;
+    margin: 30% 30%;
+    
+}
+div p,h4{
+    font-size: large;
+    margin: 20px;
+    text-align: center;
+
+}
+.body_div ul{
+    margin-left: 40px;
+}
+.body_div li{
+    border: 3px solid black;
+    display: inline-block;
+    padding: 10px;
+    background-color: rgb(255, 255, 255);
+    color: black;
+    
+}
+.body_div mark{
+   
+    background-color: black;
+    
+}
+.body_div img{
+    margin-right: 10px;
+    
+}
+img.a{
+    height: 100px;
+    width: 250px;
+    margin-top: 50px;
+    margin-left: 40%;
+}
+form{
+    margin-left: 40%;
+    margin-right: 40%;
+    margin-bottom: 50px;
+}
+input[type=submit]{
+    color: black;
+    width: 100px;
+    height: 40px;
+    border: 2px solid rgb(64, 64, 64);
+    border-radius: 10px;
+    font-size: 18px;
+    font-weight: bold;
+}
+form textarea{
+    color: black;
+}

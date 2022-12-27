@@ -1,0 +1,118 @@
+body{
+    background-color: rgb(48, 44, 44);
+}
+h1{
+    color: rgb(225, 38, 128);
+    margin: -40px;
+    margin-left: 5px;
+    display: inline;
+}
+div.a{
+    display: inline-block;
+    margin-left: 400px;
+    background-color: grey;
+    width: auto;
+    padding: 4px;
+    border-radius: 20px;
+}
+p.search{
+    margin-top: -25px;
+    margin-left: 30px;
+}
+.list{
+    width: auto;
+    float: right;
+    overflow: hidden;
+    margin-top: -100px;
+}
+li a{
+    display: inline-block;
+    padding: 6px;
+}
+a{
+    color:rgb(143, 143, 143);
+}
+div.b{
+    display: inline-block;
+    margin-right: 0px;
+    background-color: grey;
+    width: 100px;
+    padding: 4px;
+}
+a.profile{
+    padding: 10px;
+    border-radius: 20px;
+    background-color: rgb(193, 170, 170);
+}
+div.child{
+    background-color: rgb(130, 128, 128) ;
+    border-radius: 10px;
+    width: auto;
+    margin: 10px;
+    padding: 20px;
+    height: auto;
+}
+u{
+    color: white;
+    margin-left: 20px;
+    font-size: 50px;
+}
+div.gallery{
+    margin: 10px;
+    float: left;
+    width: 300px;
+    background-color: lightslategrey;
+    padding: 10px;
+    padding-bottom: 30px;
+    border-radius: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+div.des{
+    padding: 4px;
+    text-align: left;
+    color: white;
+    
+}
+div.x{
+    background-color: rgb(44, 42, 42);
+    width: auto;
+    height: 700px;
+    border-radius: 20px;
+}
+img{
+    border-radius: 20px;
+}
+div.y{
+    background-color: rgb(44, 42, 42);
+    width: auto;
+    margin-top: 15px;
+    border-radius: 20px;
+    color: white;
+    height: 450px;
+}
+img.me{
+    margin-left: 25px;
+    margin-top: 20px;
+}
+ul{
+    list-style-type: none;
+    padding: 20px;
+    overflow: hidden;
+}
+li {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    margin-right: 150px;
+    margin-top: 20px;
+   }
+   #last{
+    padding: 10px;
+    border-radius: 20px;
+    background-color: rgb(193, 170, 170);
+    width: 120px;
+   }

@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+}
+#one{
+    font-size: 50px;
+    font-weight: bolder;
+    display: inline;
+}
+div.header ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-image: linear-gradient(to right, #5F0A87, #A4508B);
+    
+    overflow: hidden;
+}
+div.header li{
+    padding: 10px;
+    float: left;
+}
+div.header li a{
+    display: block;
+    text-align: center;
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+h2{
+    font-size: xx-large;
+    background-color:deepskyblue;
+    margin: 40px;
+    padding: 10px;
+    border-radius: 20px;
+    color: rgb(15, 5, 50);
+    border: 3px solid cornsilk;
+    text-align: center;
+}
+.soups{
+    justify-content: space-evenly;
+}
+div.box{
+    background-color: rgb(15, 5, 50);
+    padding: 5px 5px;
+    height: 250px;
+    width: 300px;
+   
+    border-radius: 10px;
+    margin: 0px 40px 20px 30px;
+    display:inline-block;
+    box-shadow:  0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    
+}
+
+div.box img{
+    position: relative;
+    border-radius: 5px;
+    height: 150px;
+    width: 285px;
+    border: 2px solid white;
+}
+h5.name{
+    display: inline-block;
+    font-size: 30px;
+    color: deepskyblue;
+}
+h5.cost{
+    font-size: 20px;
+}
+body{
+    background-image: linear-gradient(to left, #5F0A87, #A4508B);
+}

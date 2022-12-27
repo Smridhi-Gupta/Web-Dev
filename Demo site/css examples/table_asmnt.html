@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        table,th,td{
+            border: 2px dashed black;
+            border-collapse: collapse;
+            height: 40px;
+            width: 400px;
+            text-align: center;
+        }
+        td{
+            vertical-align: bottom;
+        }
+        th{
+            text-decoration: underline;
+        }
+        tr:nth-child(even){
+            background-color: pink;
+        }
+        tr:nth-child(odd){
+            background-color: lightblue;
+        }
+        tr:hover{
+            background-color: maroon;
+            color: white;
+            height: 60px;
+            font-size: 40px;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <th>R.No</th>
+        <th>Name</th>
+        <th>Course</th>
+        <th>Marks</th>
+        <tr>
+            <td>1</td>
+            <td>A</td>
+            <td>MCA</td>
+            <td>90</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>B</td>
+            <td>MCA</td>
+            <td>90</td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>C</td>
+            <td>BCA</td>
+            <td>90</td>
+        </tr>
+        <tr>
+            <td>4</td>
+            <td>D</td>
+            <td>MTech</td>
+            <td>90</td>
+        </tr>
+        <tr>
+            <td>5</td>
+            <td>E</td>
+            <td>MTech</td>
+            <td>80</td>
+        </tr>
+    </table>
+</body>
+</html>

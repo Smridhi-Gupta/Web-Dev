@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div.grey{
+            background-color: lightgrey;
+            padding: 30px;
+        }
+
+        div.pink{
+            background-color: plum;
+            padding: 30px;
+            position: relative;
+            margin-left: 100px;
+            margin-right: 100px;
+        }
+
+        div.purple{
+            background-color: rgb(131, 28, 174);
+            padding: 30px;
+            position: absolute;
+            top: 77px;
+            left: 1px;
+            color: white;
+        }
+
+        div.parent{
+            background-color: lightgrey;
+            padding: 30px;
+            position: relative;
+            margin-top: 100px;
+        }
+
+        p{
+            margin-left: 100px;
+        }
+
+        div.child{
+            background-color: plum;
+            padding: 20px ;
+            margin-left: 100px;
+            margin-right: 100px; 
+        }
+
+        div.abc{
+            background-color: rgb(131, 28, 174);
+            padding: 30px;
+            position: absolute;
+            top: 150px;
+            left: 0px;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <div class="grey">
+        <div class="pink"> I am relative positioned
+            <div class="purple"> I am absolute positioned
+
+            </div>
+        </div>
+    </div>
+
+    <div class="parent"><p> I am relative positioned</p>
+        <div class="child">
+            <div class="abc"> I am absolute positioned
+
+            </div>
+        </div>
+    </div>
+</body>
+</html>
