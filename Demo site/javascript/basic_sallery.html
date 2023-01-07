@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+    </head>
+    <body>
+        <script>
+        var basic_sallery=eval(prompt("enter your basic salary"))
+        
+        if(basic_sallery>20000){
+            TA=(basic_sallery*10)/100
+            DA=(basic_sallery*10)/100
+            HRA=(basic_sallery*10)/100
+            TOTAL=TA+DA+HRA
+                document.write("TA="+TA)
+                document.write("<br>DA="+DA)
+                document.write("<br>HRA="+HRA)
+                document.write("<br>TOTAL="+TOTAL)
+        }
+        else if(basic_sallery>15000){
+            TA=(basic_sallery*5)/100
+            DA=(basic_sallery*5)/100
+            HRA=(basic_sallery*5)/100
+            TOTAL=TA+DA+HRA
+                document.write("TA="+TA)
+                document.write("<br>DA="+DA)
+                document.write("<br>HRA="+HRA)
+                document.write("<br>TOTAL="+TOTAL)
+        }
+        else if(basic_sallery>10000){
+            TA=(basic_sallery*2.5)/100
+            DA=(basic_sallery*2.5)/100
+            HRA=(basic_sallery*2.5)/100
+            TOTAL=TA+DA+HRA
+                document.write("TA="+TA)
+                document.write("<br>DA="+DA)
+                document.write("<br>HRA="+HRA)
+                document.write("<br>TOTAL="+TOTAL)
+        }
+        else{
+            document.write("error!")
+        }
+    </script>
+    </body>
+</html>

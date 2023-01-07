@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        var a=eval(prompt("enter marks of hindi"))
+        var b=eval(prompt("enter marks of english"))
+        var c=eval(prompt("enter marks of maths"))
+        var total=a+b+c
+        var avg=total/3
+        let grade = "null"
+        document.write("<table border=2><tr><th>HINDI</th><th>ENGLISH</th><th>MATHS</th><th>TOTAL</th><th>AVERAGE</th><th>GRADE</th></tr>")
+        if(avg>=80){
+            grade="A+"
+        }
+        else if(avg>=60){
+            grade = "B+"
+        }
+        else if(avg>=40){
+            grade = "C+"
+        }
+        else{
+            grade = "fail"
+        }
+        document.write("<tr><td>"+a+"</td><td>"+b+"</td><td>"+c+"</td><td>"+total+"</td><td>"+avg+"</td><td>"+grade+"</td></tr></table>")
+    </script>
+</body>
+</html>
