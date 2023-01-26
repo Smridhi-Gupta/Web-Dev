@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        function over(){
+            document.bgColor="blue"
+        }
+        function textout(){
+            document.fgColor="white"
+        }
+        function textover(){
+            document.fgColor="green"
+        }
+        function down(){
+            document.getElementById('n1');
+            alert("you pressed a key")
+            document.bgColor="pink"
+        }
+        function focu(){
+            document.getElementById('n2').style.background="red";
+        }
+        function out(){
+            document.bgColor="red"
+        }
+    </script>
+        <marquee background-color="pink" onmouseover="stop()" onmouseout="start()"><h1>Hello</h1></marquee>
+
+        <input type="button" value="click to see effect" onmouseover="over()" onmouseout="out()">
+
+        <input type="button" value="click to see effect" onmouseover="textover()" onmouseout="textout()">
+        <h1>hellooooo</h1>
+
+        <input type="text" id="n1" onfocus="focu()" onkeydown="down()">
+
+        <input type="text" id="n2" onfocus="focu()">
+</body>
+</html>
