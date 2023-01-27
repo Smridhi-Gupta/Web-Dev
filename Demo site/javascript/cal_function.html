@@ -5,6 +5,43 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        div{
+            background-color: rgb(233, 82, 107);
+            width: 180px;
+            height: 340px;
+            border-radius: 5px;
+            box-shadow: 10px 10px 16px rgb(201, 201, 201);
+        }
+        button.zero{
+            width: 85px;
+        }
+        button{
+            background-color: rgb(255, 161, 177);
+            width: 40px;
+            border-radius: 5px;
+            height: 30px;
+            color: white;
+            border: 0px;
+            font-weight: bold;
+        }
+        button:hover{
+            opacity: 0.6;
+            color:  rgb(233, 82, 107);
+        }
+        .text{
+            height: 40px;
+            border-radius: 5px;
+            border: 2px solid rgba(164, 222, 83, 0.967);
+            width: 165px;
+            color: rgb(233, 82, 107);
+            font-weight: bold;
+            background-color: rgba(253, 206, 214, 0.988);
+        }
+        .equal{
+            background-color: rgba(164, 222, 87, 0.967);
+        }
+    </style>
 </head>
 <body>
     <script>
@@ -20,36 +57,52 @@
             document.getElementById('display').value=p
         }
     </script>
-    <input type="text" name="" id="display">
+    <div>
+    <table>
+    <tr>
+    <td colspan="4"><input type="text" name="" id="display" class="text"></td>
+    </tr>
     <br>
 
-    <button onclick="del()">C</button>
-    <button onclick="get('+/-')">+/-</button>
-    <button onclick="get('%')">%</button>
-    <button onclick="get('/')">/</button>
+    <tr>
+    <td><button onclick="del()">C</button></td>
+    <td><button onclick="get('+/-')">+/-</button></td>
+    <td><button onclick="get('%')">%</button></td>
+    <td><button onclick="get('/')">/</button></td>
+    </tr>
     <br>
 
-    <button onclick="get(7)">7</button>
-    <button onclick="get(8)">8</button>
-    <button onclick="get(9)">9</button>
-    <button onclick="get('*')">*</button>
+    <tr>
+    <td><button onclick="get(7)">7</button></td>
+    <td><button onclick="get(8)">8</button></td>
+    <td><button onclick="get(9)">9</button></td>
+    <td><button onclick="get('*')">*</button></td>
+    </tr>
     <br>
     
-    <button onclick="get(4)">4</button>
-    <button onclick="get(5)">5</button>
-    <button onclick="get(6)">6</button>
-    <button onclick="get('-')">-</button>
+    <tr>
+    <td><button onclick="get(4)">4</button></td>
+    <td><button onclick="get(5)">5</button></td>
+    <td><button onclick="get(6)">6</button></td>
+    <td><button onclick="get('-')">-</button></td>
+    </tr>
     <br>
     
-    <button onclick="get(1)">1</button>
-    <button onclick="get(2)">2</button>
-    <button onclick="get(3)">3</button>
-    <button onclick="get('+')">+</button>
+    <tr>
+    <td><button onclick="get(1)">1</button></td>
+    <td><button onclick="get(2)">2</button></td>
+    <td><button onclick="get(3)">3</button></td>
+    <td><button onclick="get('+')">+</button></td>
+    </tr>
     <br>
 
-    <button onclick="get(0)">0</button>
-    <button onclick="get('.')">.</button>
-    <button onclick="cal()">=</button>
+    <tr>
+    <td colspan="2"><button onclick="get(0)" class="zero">0</button></td>
+    <td><button onclick="get('.')">.</button></td>
+    <td><button onclick="cal()" class="equal">=</button></td>
+    </tr>
     <br>
+    </table>
+    </div>
 </body>
 </html>
