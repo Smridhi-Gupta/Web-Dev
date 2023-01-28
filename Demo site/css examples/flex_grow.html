@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+.flex {
+  display: flex;
+  align-items: stretch;
+  background-color: wheat;
+}
+
+.flex > div {
+  background-color: lightslategray;
+  color: white;
+  margin: 10px;
+  text-align: center;
+  line-height: 75px;
+  font-size: 30px;
+}
+</style>
+</head>
+<body>
+
+<h1>The flex-grow Property</h1>
+
+<p>Make the third flex item grow eight times faster than the other flex items:</p>
+
+<div class="flex">
+  <div style="flex-grow: 1">1</div>
+  <div style="flex-grow: 1">2</div>
+  <div style="flex-grow: 8">3</div>
+</div>
+
+</body>
+</html>
+
+
